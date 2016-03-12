@@ -13,10 +13,29 @@ body{
 
 h1{
 	font-family: 'Titillium Web', sans-serif;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+h3{
+    margin-top: -10px;
+    text-align: right;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.label-primary{
+    background-color: #252839;
+}
+
+.label-default{
+    position:absolute;
+    background-color: #252839;
 }
 
 img{
     border-radius: 5px;
+    border: 10px solid #FFC125;
+    
 }
 
 #row1{
