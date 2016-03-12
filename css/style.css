@@ -6,33 +6,21 @@ body{
     background-color: linear-gradient(#FFC125, #FFA500); /* Standard syntax */
 }
 
-#content{
-    background-color: #FFFFFF;
-    border-radius: 5px;
-    height: 800px;
+.container{
+    background-color: white;
+    text-align: center;
 }
-
-#col-1{
-    background-color: #FFA500;
-    border-radius: 15px;
-    height: 400px;
-}
-
-#col-2{
-    background-color: #FFA500;
-    border-radius: 15px;
-    height: 400px;
-}
-
-#col-3{
-    background-color: #FFA500;
-    border-radius: 15px;
-    height: 400px;
-}
-
 
 h1{
 	font-family: 'Titillium Web', sans-serif;
+}
+
+img{
+    border-radius: 5px;
+}
+
+#row1{
+    background-color: ye
 }
 
 .page-header{
@@ -56,4 +44,10 @@ h1{
 
 .navbar-default .navbar-nav>li>a {
     color: #FFA500;
+}
+
+#footer{
+    background-color: #252839;
+    color: #FFA500;
+    border-radius: 5px;
 }
