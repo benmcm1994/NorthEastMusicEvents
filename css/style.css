@@ -1,0 +1,28 @@
+
+.jumbotron{
+	background-color: #f2b632  !important;
+}
+
+#jumbotron h1{
+	font-family: 'Titillium Web', sans-serif;
+	color: red;
+}
+
+#leftBanner h1{
+	font-size: 20px;
+	color: red;
+}
+
+#leftBanner{
+	background-color: orange;
+	position: relative;
+	height: 100%;
+	background-image: url("..");
+
+}
+
+#rightBanner{
+	background-image: url("http://placehold.it/800x600");
+	height: 100%;
+	position: relative;
+}
