@@ -1,28 +1,35 @@
-
-.jumbotron{
-	background-color: #f2b632  !important;
+body{
+    background-color: #FFC125; /* For browsers that do not support gradients */
+    background-color: -webkit-linear-gradient(#FFC125, #FFA500); /* For Safari 5.1 to 6.0 */
+    background-color: -o-linear-gradient(#FFC125, #FFA500); /* For Opera 11.1 to 12.0 */
+    background-color: -moz-linear-gradient(#FFC125, #FFA500); /* For Firefox 3.6 to 15 */
+    background-color: linear-gradient(#FFC125, #FFA500); /* Standard syntax */
 }
 
-#jumbotron h1{
+h1{
 	font-family: 'Titillium Web', sans-serif;
 	color: red;
 }
 
-#leftBanner h1{
-	font-size: 20px;
-	color: red;
+.page-header{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    height: 200px;
+    background: url('../images/banner.png') center center no-repeat scroll;
+    border-radius: 5px;
 }
 
-#leftBanner{
-	background-color: orange;
-	position: relative;
-	height: 100%;
-	background-image: url("..");
-
+.navbar {
+    background-color: #252839;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    border-color: transparent;
 }
 
-#rightBanner{
-	background-image: url("http://placehold.it/800x600");
-	height: 100%;
-	position: relative;
+.navbar-default .navbar-brand {
+    color: #FFA500;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #FFA500;
 }
